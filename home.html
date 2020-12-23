@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>淮安工学院</title>
+    <link type="text/css" rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://bdimg.share.baidu.com/static/api/css/share_style0_16.css?v=8105b07e.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./js/mai.js"></script>
+    
+</head>
+<body>
+    <div class="header" style="background-image:url('img/header-bg.png');">
+        
+        
+        <div class="header-right">
+            <div class="header-right-button">
+                <p><a href="#">联系我们 </a>|&nbsp<a href="http://www.hyit.edu.cn" target="_blank">中文站</a> |&nbsp<a href="http://en.hyit.edu.cn " target="_blank">英文站</a></p>
+            </div>
+            <form class="search" action="#">
+                <input type="text" placeholder="请输入关字" name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            
+        </div>
+        <div class="header-title">
+            <div class="logo"><img src="./img/logo.png" style="width: 120px;"></img></div>
+            <img src="./img/header-title.png" style="width: 500px; margin-top: 50px;" ></img>
+            <h6>Official website of commission for discipline inspection of huaiyin institute of technology</h6>
+        </div>
+    </div>
+
+    <div class="header-nav" style="background-image:url('img/nav-menubar.png');">
+        <div class="header-nav-menu">
+            <ul style="height: 156px;">
+                <li><a class="active" href="#">首页</a></li>
+                <li><a href="#">工作动态</a></li>
+                
+                <li>
+                    <a href="#">机构设置</a>
+                    <dl class="subnav">
+                        
+                        <dt><a href="#">部门职责</a></dt>
+                        <dt><a href="#">人员分工</a></dt>
+
+                    </dl>  
+                </li>
+
+                <li>
+                    <a href="#">规章制度</a>
+                    <dl class="subnav">
+                        
+                        <dt><a href="#">国家法规</a></dt>
+                        <dt><a href="#">学校制度</a></dt>
+
+                    </dl>  
+                
+                </li>
+
+                <li><a href="#">宣传教育</a></li>
+                <li><a href="#">记实平台</a></li>
+                <li><a href="#">警钟长鸣</a></li>
+                <li><a href="#">文件下载</a></li>
+              </ul>
+        </div>
+    </div>
+
+    <div class="center">
+        <div class="center-part1">
+            <img src="./img/flyer-top.png" style="width: 100%; height: 100%;"></img>
+        </div>
+        <div class="center-part2">
+            <div class="center-part2-left" style="max-width: 500px;">
+                <a href=""><img class="mySlides" src="./img/s1.jpg" title="校党委专题听取被巡察学院党委整改工作方案汇报" style="width:100%; height: 380px"></img></a>
+                <a href=""><img class="mySlides" src="./img/s2.jpg" title="我校纪委召开全体纪委委员会议" style="width:100%; height: 380px"></img></a>
+                <a href=""><img class="mySlides" src="./img/s3.jpg" title="“四风”重症患者，“五一”将近中纪委有话对你说" style="width:100%;height: 380px"></img></a>
+                <a href=""><img class="mySlides" src="./img/s4.jpg" title="中国共产党第十八届中央纪律检查委员会第六次全体会议公报" style="width:100%;height: 380px"></img></a>
+                <a href=""><img class="mySlides" src="./img/s5.jpg" title="我院开展党员干部警示教育活动" style="width:100%;height: 380px"></img></a>
+               
+            </div>
+            <script>
+                var myIndex = 0;
+                var $transition_time = 1000; 
+                var $time_between_slides = 2000; 
+                carousel();
+
+                function carousel() {
+                var i;
+                var x = document.getElementsByClassName('mySlides');
+                
+                for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                
+                }
+                
+                $interval = setInterval(carousel, $transition_time +  $time_between_slides );
+
+                $("img").on("mouseover",function(){
+                clearInterval($interval);
+                });
+
+                $("img").on("mouseout",function(){
+                $interval = setInterval(carousel, $transition_time +  $time_between_slides );
+                });
+            </script>
+
+            
+
+
+            <div class="center-part2-right">
+                <div class="title-text1">
+                    <img src="./img/part1-title-icon.png">
+                    <p>工作动态</p>
+                </div>
+                <div class="line"></div>
+                <div class="content-text">
+                    <ul>
+                        <li><a href="#"><b>校党委专题听取被巡察学院党委整改工作方案汇报</b></a></li>
+                        <li><a href="#"><b>淮安市委巡察办专家赴我校开展巡察培训工作</b></a></li>
+                        <li><a href="#"><b>校巡察办举行2019年第一轮校内巡察工作培训会</b></a></li>
+                        <li><a href="#">校纪委赴黄花塘新四军军部纪念馆、盱眙县纪委开...</a></li>
+                        <li><a href="#">我校举行全面从严治党大会暨党风廉政建设责任书...</a></li>
+                        <li><a href="#">江苏财经职业技术学院党委书记韩香云来我校交流...</a></li>
+                        <li><a href="#">淮阴师范学院领导来我校交流访问</a></li>
+
+                    </ul>
+                    
+                </div>
+                <div class="button1">
+                    <a href="#">更多>></a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="center-part3">
+            <div class="center-part3-content">
+                <div class="title-text">
+                    <p>通和公告 <a href="#">更多>></a></p>
+                    <div class="line"></div>
+                </div>
+                
+                <div class="content-text">
+                    <ul>
+                        <li><a href="#">关于加强教师节、中秋节和国庆节期间廉洁自...</a></li>
+                        <li><a href="#">2019年6月全国大学英语四、六级考试考风考...</a></li>
+                        <li><a href="#">关于转发淮安市纪委办《关于六起违反中央八...</a></li>
+                        <li><a href="#">关于加强端午期间作风建设及廉洁自律教育工...</a></li>
+                        <li><a href="#">江苏省2019年普通高校““专转本”选拔考试...</a></li>
+                        <li><a href="#">2019年全国硕士研究生招生考试考风考纪纪检...</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="center-part3-content">
+                <div class="title-text">
+                    <p>国家法规 <a href="#">更多>></a></p>
+                    <div class="line"></div>
+                </div>
+                
+                <div class="content-text">
+                    <ul>
+                        <li><a href="#">中国共产党纪律处分条例</a></li>
+                        <li><a href="#">关于新形势下党内政治生活的若干准则</a></li>
+                        <li><a href="#">中国共产党党内监督条例</a></li>
+                        <li><a href="#">中共中央印发《中国共产党问责条例》</a></li>
+                        <li><a href="#">中国共产党问责条例（2019年版）</a></li>
+                        <li><a href="#">中国共产党巡视工作条例（2017年7月1日修...</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="center-part3-content">
+                <div class="title-text">
+                    <p>学校制度 <a href="#">更多>></a></p>
+                    <div class="line"></div>
+                </div>
+                
+                <div class="content-text">
+                    <ul>
+                        <li><a href="#">淮阴工学院纪委机关工作例会制度（试行）</a></li>
+                        <li><a href="#">淮阴工学院纪检监察干部工作纪律规定（试行）</a></li>
+                        <li><a href="#">中共淮阴工学院委员会巡察工作办法（试行）</a></li>
+                        <li><a href="#">淮阴工学院党风廉政建设责任制考核办法</a></li>
+                        <li><a href="#">中共淮阴工学院委员会践行监督执纪四种形态...</a></li>
+                        <li><a href="#">淮阴工学院纪检监察信访举报处理工作办法</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="center-part4">
+            <img src="./img/flyer-bottom.png" style="width: 100%; height: 100%;"></img>
+        </div>
+        <div class="center-part5">
+            <div class="center-part5-content">
+                <div class="title-text">
+                    <p>宣传教育 <a href="#">更多>></a></p>
+                    <div class="line"></div>
+                </div>
+                
+                <div class="content-text">
+                    <ul>
+                        <li><a href="#">一图了解《中国共产党纪律处分条例》修订的...</a></li>
+                        <li><a href="#">江苏出台“禁酒令” 严防“擦边球” 禁止公...</a></li>
+                        <li><a href="#">纪律建设与时俱进 制度笼子越扎越紧</a></li>
+                        <li><a href="#">严肃换届纪律“九严禁”视频</a></li>
+                        <li><a href="#">关于严禁党员领导干部和机关企事业单位工作...</a></li>
+                        <li><a href="#">把“严”字长期坚持下去——浅析十九届中央...</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="center-part5-content" >
+                <div class="title-text">
+                    <p>警钟长鸣 <a href="#">更多>></a></p>
+                    <div class="line"></div>
+                </div>
+                
+                <div class="content-text">
+                    <ul>
+                        <li><a href="#">2019年8月全省查处违反中央八项规定精神问...</a></li>
+                        <li><a href="#">2018年7月全省查处违反中央八项规定精神问...</a></li>
+                        <li><a href="#">2018年5月全国查处违反中央八项规定精神问...</a></li>
+                        <li><a href="#">江苏省通报六起违反中央八项规定精神典型问...</a></li>
+                        <li><a href="#">端午将至，严查“四风”不手软！</a></li>
+                        <li><a href="#">中央纪委公开曝光八起违反中央八项规定精神...</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="center-part5-content">
+                <div class="title-text7">
+                    <img src="./img/part7-title.png" ></img>
+                </div>
+                <div class="content-text7" style="background-color: #F0F4F7;">
+                    
+                    <ol>    
+                        <p><a href="#"> 1.南京航空航天大学纪委监</a></p>
+                        <p><a href="#"> 2.南京信息工程大学纪委办</a></p>
+                        <p><a href="#"> 3.淮阴工学院</a></p>
+                        <p><a href="#"> 4.江苏教育纪检监察</a></p>
+                        <p><a href="#"> 5.中共中央纪律检查委员会</a></p>
+                        <p><a href="#"> 6.江苏廉政清风扬帆</a></p>
+                        <p><a href="#"> 7.中国廉政网</a></p>
+                    </ol>   
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-nav">
+        <div class="footer-nav-menu">
+            <ul>
+                <li><a href="#">我要举报</a></li>
+                <li><a href="#">警钟长鸣</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">作风监督进行时</a></li>
+                <li><a href="#">登录页面</a></li>
+                
+              </ul>
+        </div>
+    </div>
+
+    <div class="footer" style="background-image: url('./img/footer.png');">
+        <div class="footer-content">
+            <p>中共淮阴工学院纪律检查委员会&nbsp;淮阴工学院监察处&nbsp;版权所有&copy2020</p>
+            <p>地址：淮安市枚乘路1号&nbsp&nbsp电话：0517-83591013</p>
+            <p>页面执行时间0.1445秒&nbsp&nbsp&nbsp&nbsp查询数据库19次</p>
+        </div>
+    </div>
+</body>
+</html>
